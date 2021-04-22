@@ -1,7 +1,7 @@
 resource "random_pet" "prefix" {}
 
 provider "azurerm" {
-    version = "~> 2.14.0"
+    version = "2.14.0"
 }
 
 resource "azurerm_resource_group" "default" {
