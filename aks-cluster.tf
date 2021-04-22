@@ -1,7 +1,7 @@
 resource "random_pet" "prefix" {}
 
 provider "azurerm" {
-    features = {}
+    features{}
 }
 
 resource "azurerm_resource_group" "default" {
